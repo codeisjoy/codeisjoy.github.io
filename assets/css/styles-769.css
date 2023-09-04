@@ -1,0 +1,41 @@
+body {
+	font-size: 16px;
+}
+
+.compact-hidden {
+	display: none;
+}
+
+.compact-visible-inline {
+	display: inline;
+}
+
+.container {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.flexbox-container {
+	display: block;
+}
+
+.container .section-title {
+	width: 30px;
+	min-width: 0px;
+	font-size: 1.4em;
+	white-space: nowrap;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #ddd;
+}
+
+#projects #duraation.project {
+	padding-right: 0;
+	padding-bottom: 380px;
+}
+
+#projects #duraation.project #img {
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%, 0);
+}

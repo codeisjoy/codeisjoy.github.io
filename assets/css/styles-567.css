@@ -1,0 +1,27 @@
+.container .experience .cdl .company {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.container .experience .cdl .date,
+.container .experience .cdl .location {
+	display: block;
+	line-height: 1.4em;
+}
+
+.container .experience .cdl .date:after {
+	content: "";
+}
+
+.unordered-list {
+	margin-left: 20px;
+}
+
+#wrapper .page:last-child .container {
+	display: block;
+	text-align: center;
+}
+
+#cv {
+	margin-top: 20px;
+}
